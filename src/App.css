@@ -1,3 +1,36 @@
 .App {
   text-align: center;
+  color: rgb(45, 3, 70);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid rgb(146, 107, 148);
+  padding: 5px 20px;
+  border-radius: 2px;
+}
+
+a:hover {
+  background-color: rgb(184, 143, 183);
+  color: #fff;
+}
+
+/* On Process*/ 
+.container-onprocess {
+  padding-top: 100px;
+}
+.container-onprocess img{
+  width: 350px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-onprocess {
+    padding-top: 230px;
+  }
+  .container-onprocess img{
+    width: 250px;
+  }
 }
